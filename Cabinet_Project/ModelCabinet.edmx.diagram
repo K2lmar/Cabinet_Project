@@ -4,11 +4,11 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="b9b62d0f8e1c4aae8afe2fa06fce78cb" Name="Diagram1">
-        <EntityTypeShape EntityType="Cabinet_ProjectModel.AdministratorsSet" Width="1.5" PointX="6" PointY="1.375" IsExpanded="true" />
+      <Diagram DiagramId="357da1d2031240ddb7b85c89b4cc7003" Name="Diagram1">
+        <EntityTypeShape EntityType="Cabinet_ProjectModel.AdministratorsSet" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
         <EntityTypeShape EntityType="Cabinet_ProjectModel.SchoolSubjectsSet" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
         <EntityTypeShape EntityType="Cabinet_ProjectModel.TeachersSet" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="Cabinet_ProjectModel.Users" Width="1.5" PointX="9.375" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Cabinet_ProjectModel.Users" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
         <AssociationConnector Association="Cabinet_ProjectModel.FK_SchoolSubjectsSet_TeachersSet" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>

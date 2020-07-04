@@ -128,7 +128,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="Cabinet_ProjectEntities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="Cabinet_ProjectEntities2" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="AdministratorsSet" EntityType="Self.AdministratorsSet" />
           <EntitySet Name="SchoolSubjectsSet" EntityType="Self.SchoolSubjectsSet" />
           <EntitySet Name="TeachersSet" EntityType="Self.TeachersSet" />
@@ -143,7 +143,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище Cabinet_ProjectModelContainer" CdmEntityContainer="Cabinet_ProjectEntities1">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Cabinet_ProjectModelContainer" CdmEntityContainer="Cabinet_ProjectEntities2">
           <EntitySetMapping Name="AdministratorsSet">
             <EntityTypeMapping TypeName="Cabinet_ProjectModel.AdministratorsSet">
               <MappingFragment StoreEntitySet="AdministratorsSet">

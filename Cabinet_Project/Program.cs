@@ -8,7 +8,7 @@ namespace Cabinet_Project
 {
     static class Program
     {
-        public static Cabinet_ProjectEntities1 wftDb = new Cabinet_ProjectEntities1();
+        public static Cabinet_ProjectEntities2 wftDb = new Cabinet_ProjectEntities2();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>

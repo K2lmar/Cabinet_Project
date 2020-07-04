@@ -13,10 +13,10 @@ namespace Cabinet_Project
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Cabinet_ProjectEntities1 : DbContext
+    public partial class Cabinet_ProjectEntities2 : DbContext
     {
-        public Cabinet_ProjectEntities1()
-            : base("name=Cabinet_ProjectEntities1")
+        public Cabinet_ProjectEntities2()
+            : base("name=Cabinet_ProjectEntities2")
         {
         }
     
