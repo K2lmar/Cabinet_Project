@@ -10,11 +10,34 @@ using System.Windows.Forms;
 
 namespace Cabinet_Project
 {
-    public partial class Form1 : Form
+    public partial class Menu : Form
     {
-        public Form1()
+        public Menu()
         {
             InitializeComponent();
+            if (FormAuthorization.users.type == "teacher")
+            {
+                buttonOpenAdministrators.Enabled = false;
+            }
+            labelHello.Text = "Добро пожаловать, " + FormAuthorization.users.login;
+        }
+
+        private void buttonOpenTeachers_Click(object sender, EventArgs e)
+        {
+            Form formTeacher = new FormTeacher();
+            formTeacher.Show();
+        }
+
+        private void buttonOpenSchoolSubjects_Click(object sender, EventArgs e)
+        {
+            Form formSchoolSubject = new FormSchoolSubject();
+            formSchoolSubject.Show();
+        }
+
+        private void buttonOpenAdministrators_Click(object sender, EventArgs e)
+        {
+            Form formAdministrator = new FormAdministrator();
+            formAdministrator.Show();
         }
     }
 }

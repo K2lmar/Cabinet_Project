@@ -8,6 +8,7 @@ namespace Cabinet_Project
 {
     static class Program
     {
+        public static Cabinet_ProjectEntities1 wftDb = new Cabinet_ProjectEntities1();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -16,7 +17,7 @@ namespace Cabinet_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormAuthorization());
         }
     }
 }
